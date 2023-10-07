@@ -217,25 +217,26 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>260</y>
+      <y>270</y>
       <width>81</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <family>宋体</family>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>注  册</string>
+     <string>登 录</string>
     </property>
    </widget>
    <widget class="QPushButton" name="zcbtn_3">
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>260</y>
+      <y>270</y>
       <width>81</width>
       <height>31</height>
      </rect>

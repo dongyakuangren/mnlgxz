@@ -24,20 +24,33 @@ class win_login:
         if str(self.loninsin) == '[]':
             print('登录失败！')
         else:
+
             print('登录成功！')
+            self.main()
+            self.ui.destroy()
+
+
 
 
     #注册功能
     def enroll(self):
-        print('aa')
         SI.mainwin= Enroll()
         SI.mainwin.ui.show()
+
+    #登录主页面
+    def main(self):
+        SI.main = Main()
+        SI.main.ui.show()
 
 
 
 class Enroll:
     def __init__(self):
         self.ui = QUiLoader().load('enroll.ui')
+
+class Main:
+    def __init__(self):
+        self.ui = QUiLoader().load('main.ui')
 
 
 
